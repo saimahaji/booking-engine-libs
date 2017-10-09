@@ -1,9 +1,9 @@
-(function(window, angular) {'use strict';
- 
-angular.module('booking-engine')([ function() {
-console.log("Hello im from module");
-}
-}]);
+(function(angular) {
+  'use strict';
 
-
-})(window, window.angular);
+	  angular.module('bookingEngine', [], function() {
+		console.log("Im from module file")
+	});  
+  
+  
+})(window.angular);

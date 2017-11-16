@@ -1,13 +1,92 @@
 {
-  "name": "booking-engine-libs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/saimahaji/booking-engine-libs#master",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/saimahaji/booking-engine-libs#master",
+        "spec": "git+https://github.com/saimahaji/booking-engine-libs.git#master",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:saimahaji/booking-engine-libs.git#master",
+          "sshUrl": "git+ssh://git@github.com/saimahaji/booking-engine-libs.git#master",
+          "httpsUrl": "git+https://github.com/saimahaji/booking-engine-libs.git#master",
+          "gitUrl": "git://github.com/saimahaji/booking-engine-libs.git#master",
+          "shortcut": "github:saimahaji/booking-engine-libs#master",
+          "directUrl": "https://raw.githubusercontent.com/saimahaji/booking-engine-libs/master/package.json"
+        }
+      },
+      "/home/saima/workspace/workshop1/booking-engine-test"
+    ]
+  ],
+  "_from": "git+https://github.com/saimahaji/booking-engine-libs.git#master",
+  "_id": "booking-engine-libs@1.0.0",
+  "_inCache": true,
+  "_location": "/booking-engine-libs",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/saimahaji/booking-engine-libs#master",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/saimahaji/booking-engine-libs#master",
+    "spec": "git+https://github.com/saimahaji/booking-engine-libs.git#master",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:saimahaji/booking-engine-libs.git#master",
+      "sshUrl": "git+ssh://git@github.com/saimahaji/booking-engine-libs.git#master",
+      "httpsUrl": "git+https://github.com/saimahaji/booking-engine-libs.git#master",
+      "gitUrl": "git://github.com/saimahaji/booking-engine-libs.git#master",
+      "shortcut": "github:saimahaji/booking-engine-libs#master",
+      "directUrl": "https://raw.githubusercontent.com/saimahaji/booking-engine-libs/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "git+https://github.com/saimahaji/booking-engine-libs.git#5ca3fe2b4e8e35e9bcedb457f525d47d37919076",
+  "_shasum": "7dcd582cdb1c1aa604406b3cdb22391464aef729",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/saimahaji/booking-engine-libs#master",
+  "_where": "/home/saima/workspace/workshop1/booking-engine-test",
+  "author": {
+    "name": "saima"
+  },
   "dependencies": {},
-  "devDependencies": {},
+  "description": "",
+  "devDependencies": {
+	"gulp": "3.9.1",
+    "gulp-angular-templatecache": "2.0.0",
+    "gulp-clean": "0.3.2",
+    "gulp-folders": "1.1.0",
+    "gulp-htmlmin": "3.0.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-postcss": "7.0.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "3.1.0",
+    "gulp-sourcemaps": "2.6.1",
+    "gulp-typescript": "3.2.2",
+    "rtlcss": "2.2.0",
+    "run-sequence": "2.2.0",
+    "fs-path": "0.0.23",
+    "merge2": "1.2.0",
+    "cssnano": "3.10.0",
+    "systemjs-builder": "0.16.11"              
+  },
+  "gitHead": "5ca3fe2b4e8e35e9bcedb457f525d47d37919076",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "booking-engine-libs",
+  "optionalDependencies": {},
+  "readme": "#Inject this module in booking engine component modules.\n#Follow same process as required to install external lib.\n",
+  "readmeFilename": "README.md",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "saima",
-  "license": "ISC"
+  "version": "1.0.0"
 }

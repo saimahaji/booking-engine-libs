@@ -1,3 +1,4 @@
+console.log("executing from gulptasks file");
 var gulp = require('gulp');
 var plumber = require('gulp-plumber');
 var merge = require('merge2');
@@ -151,6 +152,14 @@ gulp.task('server-sass', function(callback) {
 			    'build-server-template-cache',
 			    'build-sass',callback);
 });
+
+gulp.task('build-booking-engine', function(callback) {
+	runSequence('clean',
+				'local-ts',
+			    'local-sass',callback);
+});
+
+
 /* ES6/TypeScript */
 
 var scriptsSources = "src/main/resources/static";
